@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:layout_margin="10dp"
+     >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update your note"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:hint="Name">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:importantForAccessibility="no"
+            android:gravity="start"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="20sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:hint="Mobile No.">
+
+                <EditText
+                    android:id="@+id/edt_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="start"
+
+                    android:importantForAccessibility="no"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--   <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_margin="10dp"
+                android:hint="Days">
+
+             <EditText
+                    android:id="@+id/edt_wDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:importantForAccessibility="no"
+                    android:gravity="start"
+
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_margin="10dp"
+                android:hint="Salary per day">
+
+                <EditText
+                    android:id="@+id/edt_salaryPD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:importantForAccessibility="no"
+                    android:gravity="start"
+
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:layout_margin="10dp"
+                android:hint="Total Salary">
+
+                <EditText
+                    android:id="@+id/edt_totalSalary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:importantForAccessibility="no"
+                    android:gravity="start"
+
+                    android:fontFamily="@font/adamina"
+                    android:textSize="20sp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+          -->
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:hint="Email">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:importantForAccessibility="no"
+                    android:gravity="start"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="20sp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Update"
+                android:background="@drawable/buttondesign"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>

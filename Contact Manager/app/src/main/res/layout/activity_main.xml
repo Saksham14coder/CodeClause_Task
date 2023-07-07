@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+   <Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/statusbarcolor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/toPost"
+                android:layout_width="342dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+
+                android:background="@drawable/buttondesign"
+                android:drawableLeft="@drawable/baseline_search_24"
+                android:hint=" Search........."
+                android:importantForAccessibility="no"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="16sp" />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--               -->
+<!--                android:text="Contact Book"-->
+<!--                android:fontFamily="@font/poppins_semibold"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="22sp"-->
+<!--                android:textStyle="bold" />-->
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+
+                android:layout_weight="1"
+                android:src="@drawable/user" />
+
+
+                </LinearLayout>
+
+    </Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recycleNote"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn1"
+        android:layout_width="53dp"
+        android:layout_height="55dp"
+         android:importantForAccessibility="no"
+        android:backgroundTint="@color/statusbarcolor"
+        android:src="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <TextView
+        android:id="@+id/textcreate"
+        android:layout_width="171dp"
+        android:layout_height="83dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/create_your_first_note"
+        android:textColor="@color/mix_text"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.478" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

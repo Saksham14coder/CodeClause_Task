@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ShortNote</string>
+    <string name="short_note">Short Note</string>
+    <string name="shortnote">ShortNote</string>
+    <string name="create_your_first_note">Create Your First Task</string>
+    <string name="title">Title</string>
+    <string name="n_n">\n\n</string>
+    <string name="news">news</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+</resources>
