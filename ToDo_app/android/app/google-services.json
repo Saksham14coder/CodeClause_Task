@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "280645715581",
+    "project_id": "flutter-20a60",
+    "storage_bucket": "flutter-20a60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280645715581:android:835e690ca636bdadd2d314",
+        "android_client_info": {
+          "package_name": "com.rays.animation_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280645715581-uhk4bn23ju5r8n6vaekvc7c26bo41903.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZJTTdRax-Tu6z7ruUvRtrFVsWJMAEY5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280645715581-uhk4bn23ju5r8n6vaekvc7c26bo41903.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
